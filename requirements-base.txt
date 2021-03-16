@@ -36,8 +36,6 @@ sentry-sdk
 sh
 slack_sdk
 spacy==2.3.5
-sqlalchemy>=1.3.18, <1.4
-sqlalchemy-filters
 statsmodels
 tabulate
 tenacity
