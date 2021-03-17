@@ -5,6 +5,7 @@ from typing import Any, List
 from itertools import groupby
 import functools
 
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base, declared_attr
 from sqlalchemy.orm import Query, sessionmaker
